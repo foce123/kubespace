@@ -17,9 +17,9 @@ limitations under the License.
 package gva
 
 import (
-	"github.com/dnsjia/luban/cmd/sql"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/tools"
+	"github.com/foce123/kubespace/cmd/sql"
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/tools"
 
 	"github.com/gookit/color"
 	"github.com/spf13/cobra"

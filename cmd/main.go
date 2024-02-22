@@ -16,7 +16,7 @@ limitations under the License.
 
 package main
 
-import "github.com/dnsjia/luban/cmd/gva"
+import "github.com/foce123/kubespace/cmd/gva"
 
 func main() {
 	gva.Execute()
