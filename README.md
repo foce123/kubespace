@@ -58,7 +58,7 @@ mysql:
 ```go
 windows执行以下脚本, 初始化数据库
 
-init_db.bat
+init_db.sh # or init_db.bat
 ```
 
 #### 目前已经实现的功能
