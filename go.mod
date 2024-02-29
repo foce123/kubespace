@@ -1,4 +1,4 @@
-module github.com/dnsjia/luban
+module github.com/foce123/kubespace
 
 go 1.15
 
