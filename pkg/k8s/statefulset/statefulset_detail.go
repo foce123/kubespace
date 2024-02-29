@@ -19,11 +19,12 @@ package statefulset
 import (
 	"context"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/dnsjia/luban/pkg/k8s/event"
-	"github.com/dnsjia/luban/pkg/k8s/service"
+
+	"github.com/foce123/kubespace/common"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/event"
+	"github.com/foce123/kubespace/pkg/k8s/service"
 	apps "k8s.io/api/apps/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

@@ -17,7 +17,7 @@ limitations under the License.
 package routers
 
 import (
-	"github.com/dnsjia/luban/controller"
+	"github.com/foce123/kubespace/controller"
 	"github.com/gin-gonic/gin"
 )
 

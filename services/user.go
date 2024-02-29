@@ -19,8 +19,9 @@ package services
 import (
 	"errors"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models"
 	"gorm.io/gorm"
 )
 

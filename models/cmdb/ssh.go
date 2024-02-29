@@ -17,7 +17,7 @@ limitations under the License.
 package cmdb
 
 import (
-	"github.com/dnsjia/luban/models"
+	"github.com/foce123/kubespace/models"
 	"gorm.io/gorm"
 )
 

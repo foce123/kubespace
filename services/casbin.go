@@ -17,12 +17,13 @@ limitations under the License.
 package services
 
 import (
+	"strings"
+
 	"github.com/casbin/casbin/util"
 	"github.com/casbin/casbin/v2"
 	gormAdapter "github.com/casbin/gorm-adapter/v3"
-	"github.com/dnsjia/luban/common"
+	"github.com/foce123/kubespace/common"
 	_ "github.com/go-sql-driver/mysql"
-	"strings"
 )
 
 func Casbin() *casbin.Enforcer {

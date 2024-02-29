@@ -17,7 +17,7 @@ limitations under the License.
 package secret
 
 import (
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
 	api "k8s.io/api/core/v1"
 )
 

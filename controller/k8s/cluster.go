@@ -18,16 +18,17 @@ package k8s
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/controller"
-	"github.com/dnsjia/luban/controller/response"
-	"github.com/dnsjia/luban/models"
-	"github.com/dnsjia/luban/pkg/k8s/Init"
-	"github.com/dnsjia/luban/pkg/k8s/cluster"
-	"github.com/dnsjia/luban/services"
+	"strconv"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/controller"
+	"github.com/foce123/kubespace/controller/response"
+	"github.com/foce123/kubespace/models"
+	"github.com/foce123/kubespace/pkg/k8s/Init"
+	"github.com/foce123/kubespace/pkg/k8s/cluster"
+	"github.com/foce123/kubespace/services"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"strconv"
 )
 
 func CreateK8SCluster(c *gin.Context) {

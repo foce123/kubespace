@@ -19,7 +19,7 @@ package gva
 import (
 	"os"
 
-	"github.com/dnsjia/luban/tools"
+	"github.com/foce123/kubespace/tools"
 	"github.com/spf13/cobra"
 )
 

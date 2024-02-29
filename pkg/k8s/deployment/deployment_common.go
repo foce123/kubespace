@@ -17,9 +17,9 @@ limitations under the License.
 package deployment
 
 import (
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/dnsjia/luban/pkg/k8s/event"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/event"
 	apps "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"

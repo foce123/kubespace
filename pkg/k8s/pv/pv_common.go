@@ -19,13 +19,14 @@ package pv
 import (
 	"context"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
+	"strings"
+
+	"github.com/foce123/kubespace/common"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
 	v1 "k8s.io/api/core/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	client "k8s.io/client-go/kubernetes"
-	"strings"
 )
 
 // GetStorageClassPersistentVolumes gets persistentvolumes that are associated with this storageclass.

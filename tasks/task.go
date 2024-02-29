@@ -19,11 +19,12 @@ package tasks
 import (
 	"context"
 	"encoding/json"
-	"github.com/dnsjia/luban/inner/cloud/cloudsync"
-	"github.com/dnsjia/luban/inner/cloud/cloudvendor"
-	"github.com/dnsjia/luban/models/cmdb"
-	"github.com/hibiken/asynq"
 	"log"
+
+	"github.com/foce123/kubespace/inner/cloud/cloudsync"
+	"github.com/foce123/kubespace/inner/cloud/cloudvendor"
+	"github.com/foce123/kubespace/models/cmdb"
+	"github.com/hibiken/asynq"
 )
 
 const (

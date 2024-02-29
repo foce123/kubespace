@@ -19,14 +19,15 @@ package Init
 import (
 	"errors"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/services"
+	"strconv"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/services"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/clientcmd"
-	"strconv"
 )
 
 // GetK8sClient 获取k8s Client

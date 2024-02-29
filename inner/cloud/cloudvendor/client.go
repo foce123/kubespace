@@ -18,7 +18,8 @@ package cloudvendor
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/models/cmdb"
+
+	"github.com/foce123/kubespace/models/cmdb"
 )
 
 var vendorClients = make(map[string]VendorClient, 0)

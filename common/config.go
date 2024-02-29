@@ -19,8 +19,9 @@ package common
 import (
 	"bytes"
 	"fmt"
-	"github.com/dnsjia/luban/models"
-	"github.com/dnsjia/luban/pkg/iconf"
+
+	"github.com/foce123/kubespace/models"
+	"github.com/foce123/kubespace/pkg/iconf"
 	"github.com/spf13/viper"
 	"github.com/toolkits/pkg/file"
 )

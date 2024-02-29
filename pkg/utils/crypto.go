@@ -22,7 +22,8 @@ import (
 	"crypto/cipher"
 	"encoding/hex"
 	"fmt"
-	"github.com/dnsjia/luban/common"
+
+	"github.com/foce123/kubespace/common"
 )
 
 func AesEncryptCBC2Hex(origData string) string {

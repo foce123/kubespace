@@ -18,9 +18,10 @@ package controller
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/controller/response"
-	"github.com/dnsjia/luban/services"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/controller/response"
+	"github.com/foce123/kubespace/services"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )

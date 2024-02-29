@@ -18,9 +18,10 @@ package pods
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/dnsjia/luban/pkg/k8s/event"
+
+	"github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/event"
 	v1 "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 )

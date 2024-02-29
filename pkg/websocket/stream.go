@@ -20,14 +20,15 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models"
-	"github.com/dnsjia/luban/models/cmdb"
-	"github.com/dnsjia/luban/pkg/asciicast2"
-	"github.com/dnsjia/luban/pkg/utils"
-	"github.com/gorilla/websocket"
 	"sync"
 	"time"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models"
+	"github.com/foce123/kubespace/models/cmdb"
+	"github.com/foce123/kubespace/pkg/asciicast2"
+	"github.com/foce123/kubespace/pkg/utils"
+	"github.com/gorilla/websocket"
 )
 
 type wsMsg struct {

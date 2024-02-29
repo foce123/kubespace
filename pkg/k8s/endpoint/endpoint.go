@@ -18,9 +18,10 @@ package endpoint
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models/k8s"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models/k8s"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
 	v1 "k8s.io/api/core/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/fields"

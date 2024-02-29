@@ -18,12 +18,13 @@ package event
 
 import (
 	"context"
-	"github.com/dnsjia/luban/pkg/k8s/common"
+	"strings"
+
+	"github.com/foce123/kubespace/pkg/k8s/common"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/kubernetes"
-	"strings"
 )
 
 func GetClusterNodeEvent(client *kubernetes.Clientset, namespace string, field string) (*v1.EventList, error) {

@@ -17,7 +17,7 @@ limitations under the License.
 package common
 
 import (
-	"github.com/dnsjia/luban/models/k8s"
+	"github.com/foce123/kubespace/models/k8s"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

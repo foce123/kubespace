@@ -18,9 +18,10 @@ package cloudsync
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/inner/cloud/cloudvendor"
-	"github.com/dnsjia/luban/models/cmdb"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/inner/cloud/cloudvendor"
+	"github.com/foce123/kubespace/models/cmdb"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 )

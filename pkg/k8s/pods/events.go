@@ -17,9 +17,9 @@ limitations under the License.
 package pods
 
 import (
-	"github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/dnsjia/luban/pkg/k8s/event"
+	"github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/event"
 	"k8s.io/client-go/kubernetes"
 )
 

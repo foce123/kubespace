@@ -19,9 +19,10 @@ package daemonset
 import (
 	"context"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/service"
+
+	"github.com/foce123/kubespace/common"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/service"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

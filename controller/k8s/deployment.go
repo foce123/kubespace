@@ -18,17 +18,18 @@ package k8s
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/controller"
-	"github.com/dnsjia/luban/controller/response"
-	"github.com/dnsjia/luban/models/k8s"
-	"github.com/dnsjia/luban/pkg/k8s/Init"
-	"github.com/dnsjia/luban/pkg/k8s/deployment"
-	"github.com/dnsjia/luban/pkg/k8s/parser"
-	"github.com/dnsjia/luban/pkg/k8s/service"
+	"net/http"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/controller"
+	"github.com/foce123/kubespace/controller/response"
+	"github.com/foce123/kubespace/models/k8s"
+	"github.com/foce123/kubespace/pkg/k8s/Init"
+	"github.com/foce123/kubespace/pkg/k8s/deployment"
+	"github.com/foce123/kubespace/pkg/k8s/parser"
+	"github.com/foce123/kubespace/pkg/k8s/service"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
-	"net/http"
 )
 
 func GetDeploymentList(c *gin.Context) {

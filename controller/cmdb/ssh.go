@@ -19,17 +19,18 @@ package cmdb
 import (
 	"errors"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models/cmdb"
-	"github.com/dnsjia/luban/pkg/utils"
-	WsSession "github.com/dnsjia/luban/pkg/websocket"
-	"github.com/gin-gonic/gin"
-	"github.com/gorilla/websocket"
-	uuid "github.com/satori/go.uuid"
 	"net/http"
 	"strconv"
 	"sync"
 	"time"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models/cmdb"
+	"github.com/foce123/kubespace/pkg/utils"
+	WsSession "github.com/foce123/kubespace/pkg/websocket"
+	"github.com/gin-gonic/gin"
+	"github.com/gorilla/websocket"
+	uuid "github.com/satori/go.uuid"
 )
 
 var (

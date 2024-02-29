@@ -19,16 +19,17 @@ package controller
 import (
 	"context"
 	"fmt"
-	"github.com/dnsjia/luban/models/k8s"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/event"
+	"strings"
+
+	"github.com/foce123/kubespace/models/k8s"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/event"
 	apps "k8s.io/api/apps/v1"
 	batch "k8s.io/api/batch/v1"
 	v1 "k8s.io/api/core/v1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	client "k8s.io/client-go/kubernetes"
-	"strings"
 )
 
 // ResourceOwner is an structure representing resource owner, it may be Replication Controller,

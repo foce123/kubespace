@@ -17,8 +17,8 @@ limitations under the License.
 package cronjob
 
 import (
-	"github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
 	batchv1beta1 "k8s.io/api/batch/v1beta1"
 )
 

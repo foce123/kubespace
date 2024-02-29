@@ -18,9 +18,10 @@ package tools
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/common"
 	"os"
 	"time"
+
+	"github.com/foce123/kubespace/common"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

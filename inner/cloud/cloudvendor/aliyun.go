@@ -18,9 +18,10 @@ package cloudvendor
 
 import (
 	"fmt"
+
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
-	"github.com/dnsjia/luban/models/cmdb"
+	"github.com/foce123/kubespace/models/cmdb"
 )
 
 func init() {

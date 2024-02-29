@@ -17,10 +17,11 @@ limitations under the License.
 package sql
 
 import (
-	"github.com/dnsjia/luban/models"
+	"os"
+
+	"github.com/foce123/kubespace/models"
 	"github.com/gookit/color"
 	"gorm.io/gorm"
-	"os"
 )
 
 var t models.LocalTime

@@ -18,10 +18,11 @@ package service
 
 import (
 	"context"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/dnsjia/luban/pkg/k8s/event"
-	"github.com/dnsjia/luban/pkg/k8s/pods"
+
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/event"
+	"github.com/foce123/kubespace/pkg/k8s/pods"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/labels"

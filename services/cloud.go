@@ -17,9 +17,9 @@ limitations under the License.
 package services
 
 import (
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models/cmdb"
-	"github.com/dnsjia/luban/models/request"
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models/cmdb"
+	"github.com/foce123/kubespace/models/request"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
 )

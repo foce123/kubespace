@@ -17,12 +17,13 @@ limitations under the License.
 package k8s
 
 import (
-	"github.com/dnsjia/luban/controller"
-	"github.com/dnsjia/luban/controller/response"
-	"github.com/dnsjia/luban/pkg/k8s/Init"
-	"github.com/dnsjia/luban/pkg/k8s/node"
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/foce123/kubespace/controller"
+	"github.com/foce123/kubespace/controller/response"
+	"github.com/foce123/kubespace/pkg/k8s/Init"
+	"github.com/foce123/kubespace/pkg/k8s/node"
+	"github.com/gin-gonic/gin"
 )
 
 func GetNodes(c *gin.Context) {

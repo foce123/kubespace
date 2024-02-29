@@ -17,7 +17,7 @@ limitations under the License.
 package ingress
 
 import (
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
 	//v1 "k8s.io/api/extensions/v1beta1"
 	v1 "k8s.io/api/networking/v1"
 )

@@ -18,10 +18,11 @@ package common
 
 import (
 	"context"
+
 	batch "k8s.io/api/batch/v1"
 	batch2 "k8s.io/api/batch/v1beta1"
 
-	"github.com/dnsjia/luban/models/k8s"
+	"github.com/foce123/kubespace/models/k8s"
 	apps "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"

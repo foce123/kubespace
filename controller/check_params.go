@@ -18,7 +18,8 @@ package controller
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/common"
+
+	"github.com/foce123/kubespace/common"
 	"github.com/gin-gonic/gin"
 )
 

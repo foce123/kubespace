@@ -19,18 +19,19 @@ package daemonset
 import (
 	"context"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models/k8s"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/dnsjia/luban/pkg/k8s/event"
+	"time"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models/k8s"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/event"
 	"go.uber.org/zap"
 	apps "k8s.io/api/apps/v1"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/client-go/kubernetes"
-	"time"
 )
 
 // DaemonSetList contains a list of Daemon Sets in the cluster.

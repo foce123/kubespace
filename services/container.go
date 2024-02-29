@@ -17,8 +17,8 @@ limitations under the License.
 package services
 
 import (
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models"
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models"
 )
 
 func CreateK8SCluster(cluster models.K8SCluster) (err error) {

@@ -19,11 +19,12 @@ package service
 import (
 	"context"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/dnsjia/luban/pkg/k8s/endpoint"
-	"github.com/dnsjia/luban/pkg/k8s/pods"
+
+	"github.com/foce123/kubespace/common"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/endpoint"
+	"github.com/foce123/kubespace/pkg/k8s/pods"
 	v1 "k8s.io/api/core/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

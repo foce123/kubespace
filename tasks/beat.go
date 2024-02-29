@@ -17,10 +17,11 @@ limitations under the License.
 package tasks
 
 import (
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models/cmdb"
-	"github.com/hibiken/asynq"
 	"log"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models/cmdb"
+	"github.com/hibiken/asynq"
 )
 
 func TaskBeta() {

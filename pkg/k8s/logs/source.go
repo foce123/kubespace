@@ -18,9 +18,10 @@ package logs
 
 import (
 	"context"
-	"github.com/dnsjia/luban/models/k8s"
-	"github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/controller"
+
+	"github.com/foce123/kubespace/models/k8s"
+	"github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/controller"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 )

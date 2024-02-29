@@ -20,16 +20,17 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models/k8s"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/dnsjia/luban/pkg/k8s/evict"
-	"github.com/dnsjia/luban/pkg/k8s/parser"
+	"time"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models/k8s"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/evict"
+	"github.com/foce123/kubespace/pkg/k8s/parser"
 	"github.com/gin-gonic/gin"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
-	"time"
 )
 
 // NodeList 包含集群中的节点列表.

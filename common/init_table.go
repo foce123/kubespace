@@ -17,11 +17,12 @@ limitations under the License.
 package common
 
 import (
-	"github.com/dnsjia/luban/models"
-	"github.com/dnsjia/luban/models/cmdb"
+	"os"
+
+	"github.com/foce123/kubespace/models"
+	"github.com/foce123/kubespace/models/cmdb"
 	"go.uber.org/zap"
 	"gorm.io/gorm"
-	"os"
 )
 
 func MysqlTables(db *gorm.DB) {

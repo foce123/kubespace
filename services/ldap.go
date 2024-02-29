@@ -18,8 +18,9 @@ package services
 
 import (
 	"errors"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models"
 	"github.com/toolkits/pkg/logger"
 	"golang.org/x/crypto/bcrypt"
 )

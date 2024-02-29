@@ -18,11 +18,13 @@ package tasks
 
 import (
 	"context"
-	"github.com/dnsjia/luban/common"
 	"time"
 
-	"github.com/hibiken/asynq"
+	"github.com/foce123/kubespace/common"
+
 	"log"
+
+	"github.com/hibiken/asynq"
 )
 
 // loggingMiddleware 记录任务日志中间件

@@ -17,9 +17,9 @@ limitations under the License.
 package k8s
 
 import (
-	"github.com/dnsjia/luban/controller/response"
-	"github.com/dnsjia/luban/pkg/k8s/Init"
-	"github.com/dnsjia/luban/pkg/k8s/namespace"
+	"github.com/foce123/kubespace/controller/response"
+	"github.com/foce123/kubespace/pkg/k8s/Init"
+	"github.com/foce123/kubespace/pkg/k8s/namespace"
 	"github.com/gin-gonic/gin"
 )
 

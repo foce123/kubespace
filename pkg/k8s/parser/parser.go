@@ -17,11 +17,12 @@ limitations under the License.
 package parser
 
 import (
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
-	"github.com/gin-gonic/gin"
 	"strconv"
 	"strings"
+
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
+	"github.com/gin-gonic/gin"
 )
 
 func parsePaginationPathParameter(request *gin.Context) *dataselect.PaginationQuery {

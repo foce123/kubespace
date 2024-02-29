@@ -17,11 +17,12 @@ limitations under the License.
 package middleware
 
 import (
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models"
-	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models"
+	"github.com/gin-gonic/gin"
 )
 
 func AuthMiddleware() gin.HandlerFunc {

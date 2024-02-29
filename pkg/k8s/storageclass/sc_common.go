@@ -17,7 +17,7 @@ limitations under the License.
 package storageclass
 
 import (
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
 	storage "k8s.io/api/storage/v1"
 )
 

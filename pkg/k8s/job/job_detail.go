@@ -18,7 +18,8 @@ package job
 
 import (
 	"context"
-	"github.com/dnsjia/luban/pkg/k8s/common"
+
+	"github.com/foce123/kubespace/pkg/k8s/common"
 	batch "k8s.io/api/batch/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

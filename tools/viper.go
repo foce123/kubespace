@@ -19,10 +19,11 @@ package tools
 import (
 	"flag"
 	"fmt"
-	"github.com/dnsjia/luban/common"
+	"os"
+
+	"github.com/foce123/kubespace/common"
 	"github.com/fsnotify/fsnotify"
 	"github.com/spf13/viper"
-	"os"
 )
 
 func Viper(path ...string) *viper.Viper {

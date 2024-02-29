@@ -17,8 +17,8 @@ limitations under the License.
 package node
 
 import (
-	"github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/dataselect"
+	"github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/dataselect"
 	v1 "k8s.io/api/core/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
@@ -72,7 +72,7 @@ func getNodeConditions(node v1.Node) []common.Condition {
 	return conditions
 }
 
-//getContainerImages returns container image strings from the given node.
+// getContainerImages returns container image strings from the given node.
 func getContainerImages(node v1.Node) []string {
 	var containerImages []string
 	for _, image := range node.Status.Images {

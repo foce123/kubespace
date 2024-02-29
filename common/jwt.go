@@ -17,9 +17,10 @@ limitations under the License.
 package common
 
 import (
-	"github.com/dgrijalva/jwt-go"
-	"github.com/dnsjia/luban/models"
 	"time"
+
+	"github.com/dgrijalva/jwt-go"
+	"github.com/foce123/kubespace/models"
 )
 
 var jwtKey = []byte("a_secret_creat")

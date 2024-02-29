@@ -17,11 +17,12 @@ limitations under the License.
 package cmdb
 
 import (
-	"github.com/dnsjia/luban/controller/response"
-	"github.com/dnsjia/luban/models"
-	"github.com/dnsjia/luban/services/cmdb"
-	"github.com/gin-gonic/gin"
 	"strconv"
+
+	"github.com/foce123/kubespace/controller/response"
+	"github.com/foce123/kubespace/models"
+	"github.com/foce123/kubespace/services/cmdb"
+	"github.com/gin-gonic/gin"
 )
 
 // ListHostGroup 列出主机分组

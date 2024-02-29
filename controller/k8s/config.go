@@ -17,13 +17,13 @@ limitations under the License.
 package k8s
 
 import (
-	"github.com/dnsjia/luban/controller"
-	"github.com/dnsjia/luban/controller/response"
-	"github.com/dnsjia/luban/models/k8s"
-	"github.com/dnsjia/luban/pkg/k8s/Init"
-	"github.com/dnsjia/luban/pkg/k8s/configmap"
-	"github.com/dnsjia/luban/pkg/k8s/parser"
-	"github.com/dnsjia/luban/pkg/k8s/secret"
+	"github.com/foce123/kubespace/controller"
+	"github.com/foce123/kubespace/controller/response"
+	"github.com/foce123/kubespace/models/k8s"
+	"github.com/foce123/kubespace/pkg/k8s/Init"
+	"github.com/foce123/kubespace/pkg/k8s/configmap"
+	"github.com/foce123/kubespace/pkg/k8s/parser"
+	"github.com/foce123/kubespace/pkg/k8s/secret"
 	"github.com/gin-gonic/gin"
 )
 

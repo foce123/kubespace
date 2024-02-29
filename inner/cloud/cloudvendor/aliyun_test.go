@@ -17,9 +17,10 @@ limitations under the License.
 package cloudvendor
 
 import (
-	"github.com/dnsjia/luban/models/cmdb"
 	"os"
 	"testing"
+
+	"github.com/foce123/kubespace/models/cmdb"
 )
 
 var aliTestClient VendorClient

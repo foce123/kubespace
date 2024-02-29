@@ -17,8 +17,8 @@ limitations under the License.
 package cmdb
 
 import (
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models/cmdb"
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models/cmdb"
 )
 
 type TreeList struct {

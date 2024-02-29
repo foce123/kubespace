@@ -17,12 +17,12 @@ limitations under the License.
 package cmdb
 
 import (
-	"github.com/dnsjia/luban/models"
-	"gorm.io/gorm"
 	"time"
+
+	"github.com/foce123/kubespace/models"
+	"gorm.io/gorm"
 )
 
-//
 const (
 	AliYun  string = "aliyun"
 	Tencent string = "tencent"

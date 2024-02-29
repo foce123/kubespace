@@ -18,10 +18,11 @@ package cmdb
 
 import (
 	"fmt"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models"
-	"github.com/dnsjia/luban/models/cmdb"
 	"strconv"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models"
+	"github.com/foce123/kubespace/models/cmdb"
 )
 
 func ListVirtualMachine(tree string, p *models.PaginationQ) (host []cmdb.VirtualMachine, err error) {

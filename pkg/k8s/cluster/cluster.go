@@ -18,14 +18,15 @@ package cluster
 
 import (
 	"context"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models"
-	"github.com/dnsjia/luban/tools"
+	"strings"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models"
+	"github.com/foce123/kubespace/tools"
 	"github.com/prometheus/common/expfmt"
 	"go.uber.org/zap"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
-	"strings"
 )
 
 func GetClusterVersion(c *kubernetes.Clientset) (string, error) {

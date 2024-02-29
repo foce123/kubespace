@@ -18,11 +18,12 @@ package job
 
 import (
 	"context"
-	"github.com/dnsjia/luban/common"
-	"github.com/dnsjia/luban/models/k8s"
-	k8scommon "github.com/dnsjia/luban/pkg/k8s/common"
-	"github.com/dnsjia/luban/pkg/k8s/event"
-	"github.com/dnsjia/luban/pkg/k8s/pods"
+
+	"github.com/foce123/kubespace/common"
+	"github.com/foce123/kubespace/models/k8s"
+	k8scommon "github.com/foce123/kubespace/pkg/k8s/common"
+	"github.com/foce123/kubespace/pkg/k8s/event"
+	"github.com/foce123/kubespace/pkg/k8s/pods"
 	"go.uber.org/zap"
 	batch "k8s.io/api/batch/v1"
 	v1 "k8s.io/api/core/v1"

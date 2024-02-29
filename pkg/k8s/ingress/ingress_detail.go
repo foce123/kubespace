@@ -19,7 +19,9 @@ package ingress
 import (
 	"context"
 	"fmt"
-	"github.com/dnsjia/luban/common"
+
+	"github.com/foce123/kubespace/common"
+
 	//v1 "k8s.io/api/extensions/v1beta1"
 	v1 "k8s.io/api/networking/v1"
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"

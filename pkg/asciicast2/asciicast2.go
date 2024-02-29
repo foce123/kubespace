@@ -19,7 +19,8 @@ package asciicast2
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/dnsjia/luban/pkg/utils"
+
+	"github.com/foce123/kubespace/pkg/utils"
 )
 
 type CastV2Header struct {

@@ -17,7 +17,7 @@ limitations under the License.
 package cmdb
 
 import (
-	"github.com/dnsjia/luban/controller/cmdb"
+	"github.com/foce123/kubespace/controller/cmdb"
 	"github.com/gin-gonic/gin"
 )
 
